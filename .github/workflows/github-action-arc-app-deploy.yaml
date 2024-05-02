@@ -32,7 +32,7 @@ on:
 env:
   AZURE_CONTAINER_REGISTRY: "houstonlabregistry"
   CONTAINER_NAME: "azure-voting-app"
-  RESOURCE_GROUP: "<5G-IGNITE"
+  RESOURCE_GROUP: "5G-IGNITE"
   CLUSTER_NAME: "AzureArcRKE2HoustonUPF"
   IMAGE_PULL_SECRET_NAME: "houstonlabregistry-auth"
 
