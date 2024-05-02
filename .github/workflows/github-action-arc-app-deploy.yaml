@@ -30,11 +30,11 @@ on:
   workflow_dispatch:
 
 env:
-  AZURE_CONTAINER_REGISTRY: "<Your_ACR_NAME>"
+  AZURE_CONTAINER_REGISTRY: "houstonlabregistry"
   CONTAINER_NAME: "azure-voting-app"
-  RESOURCE_GROUP: "<Your_ARC_RG_NAME>"
-  CLUSTER_NAME: "<Your_ARC_CLUSTER_NAME>"
-  IMAGE_PULL_SECRET_NAME: "image-pull-secret-name"
+  RESOURCE_GROUP: "<5G-IGNITE"
+  CLUSTER_NAME: "AzureArcRKE2HoustonUPF"
+  IMAGE_PULL_SECRET_NAME: "houstonlabregistry-auth"
 
 jobs:
   build:
